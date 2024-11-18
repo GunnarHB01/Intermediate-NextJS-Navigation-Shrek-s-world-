@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h2, h3 {
+  color: #4caf50;
+}
+
+button {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem;
+}
+
+.character-card {
+  display: inline-block;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+}
+
+.character-card h3 {
+  margin: 0.5rem 0;
+}
+
+.character-card img,
+.location-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin: 0 auto;
+}
+
+.character-card,
+.location-card {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 0 auto;
+}
